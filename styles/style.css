@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #ff91af;
+}
+
+header {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-color: #8a817c;
+  color: #463f3a;
+  padding: 5px;
+}
+
+header img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  color: #bcb8b1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #bcb8b1;
+}
+
+.nav-links li a:hover {
+  color: #463f3a;
+}
+
+.hero-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  padding: 20px;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+th {
+  padding: 5px;
+}
+
+.reservation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.reservation-container a {
+  text-decoration: none;
+  color: #8a817c;
+}
+
+.reservation-container a:hover {
+  color: #463f3a;
+}
+
+.portfolio-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.portfolio-container h1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.media-container img {
+  align-items: center;
+  justify-content: center;
+  width: 55rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.about-container {
+  height: 75vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-container h2 {
+  padding: 10px;
+}
+
+.about-container p {
+  padding: 10px;
+}
+
+.about-container img {
+  width: 222px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #8a817c;
+  color: #463f3a;
+  text-align: center;
+  padding: 10px;
+}
+
+footer img {
+  width: 143px;
+}
